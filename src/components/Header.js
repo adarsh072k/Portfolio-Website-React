@@ -27,9 +27,9 @@ const Header = () => {
     <header className={headerClassName}>
       <div className="container mx-auto">
         <div className='flex justify-between items-center '>
-          <a href="#">
+          
             <img src={Logo} className='w-10' alt="" />
-          </a>
+          
 
           {/* Toggle Component */}
           <div className='w-[70px] h-[35px] flex items-center justify-around z-[999] border rounded-full border-gray-500 bg-white relative'>
