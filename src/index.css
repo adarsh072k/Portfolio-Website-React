@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.cursor-overlay {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #8abe11;
+  background-color: #151010; /* Adjust the color as needed */
+  mix-blend-mode: difference; /* Optional: Blend mode for better visibility */
+  pointer-events: none; /* Ensures the overlay doesn't interfere with actual mouse events */
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Ensure the overlay appears above other elements */
+  transition: all 0.2s ease; /* Optional: Add a smooth transition effect */
+}
+
+
+.btn {
+  background-color: #406aff ;
+  
+}
+
+.btn:hover {
+background-color: white;
+color: #406aff;
+border:1px solid #406aff ;
+}
+
+
+.gradient,
+.active {
+
+  background-color: #406aff;
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: red;
+  transform-origin: 0%;
+}
+
+@layer base {
+  body {
+    @apply font-secondary text-lg leading-8 text-white;
+  }
+  .h2 {
+    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+  }
+  .h3 {
+    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+  }
+  .btn {
+    @apply rounded-xl font-primary text-white font-medium;
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm;
+  }
+  .btn-lg {
+    @apply h-[56px] px-10 text-base;
+  }
+  .btn-link {
+    @apply text-base;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+  }
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+}

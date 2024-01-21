@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07243c1a.css",
+    "main.js": "/static/js/main.b03a9670.js",
+    "static/media/rajasthan.JPG": "/static/media/rajasthan.f98b53e750380c869e6b.JPG",
+    "static/media/jubin.JPG": "/static/media/jubin.97dc2b3c6e8bbb20c8a7.JPG",
+    "static/media/taj.jpg": "/static/media/taj.af97590bef502888dd39.jpg",
+    "static/media/me-about.jpg": "/static/media/me-about.333ced5b367617f9fd11.jpg",
+    "static/media/me.png": "/static/media/me.efd74c28405d5f999839.png",
+    "static/media/filmFusion-compressed.jpg": "/static/media/filmFusion-compressed.e988f48ae60b922f7997.jpg",
+    "static/media/Full-stack.jpg": "/static/media/Full-stack.dc5aaabb002cf2984e29.jpg",
+    "static/media/icons.png": "/static/media/icons.87b634f2ef82cbd58592.png",
+    "static/media/guess-game.png": "/static/media/guess-game.4d2081c6dc12bd292c3c.png",
+    "static/media/sun.png": "/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "/index.html",
+    "main.07243c1a.css.map": "/static/css/main.07243c1a.css.map",
+    "main.b03a9670.js.map": "/static/js/main.b03a9670.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07243c1a.css",
+    "static/js/main.b03a9670.js"
+  ]
+}
